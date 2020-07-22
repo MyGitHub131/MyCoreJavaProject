@@ -14,7 +14,7 @@ public class AlienTesting03 {
 		t.add(new Alien(1, "Mira Apa"));
 		
 		for (Alien alien : t) {
-			System.out.println(alien.id + "<===========>" + alien.name);
+			System.out.println(alien.name + "<===========>" + alien.id);
 		}
 	}
 }

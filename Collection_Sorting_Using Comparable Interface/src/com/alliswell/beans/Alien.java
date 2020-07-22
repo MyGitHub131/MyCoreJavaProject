@@ -11,14 +11,14 @@ public class Alien implements Comparable<Alien> {
 
 	@Override
 	public int compareTo(Alien a) {
-		if (id > a.id) {
+		/*if (id > a.id) {
 			return 1;
 		} else if (id < a.id) {
 			return -1;
 		} else {
 			return 0;
-		}
-		// return name.compareTo(a.name);
+		}*/
+		 return name.compareTo(a.name);
 	}
 
 }
